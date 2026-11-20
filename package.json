@@ -1,0 +1,26 @@
+{
+  "name": "EON",
+  "version": "0.0.0",
+  "description": "two contributors, zero specification, unexpected compatibility # no-spec-just-chemistry",
+  "workspaces": [
+    "source/*"
+  ],
+  "scripts": {
+    "dev": "npm --filter=* dev",
+    "build": "npm --filter=* build",
+    "lint": "biome check"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GontseGee/no-spec-just-chemistry.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GontseGee/no-spec-just-chemistry/issues"
+  },
+  "homepage": "https://github.com/GontseGee/no-spec-just-chemistry#readme",
+  "dependencies": {
+    "@biomejs/biome": "^2.6.8"
+  }
+}
