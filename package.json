@@ -6,8 +6,8 @@
     "source/*"
   ],
   "scripts": {
-    "dev": "npm --filter=* dev",
-    "build": "npm --filter=* build",
+    "dev": "npm run dev --workspaces --if-present",
+    "build": "npm run build --workspaces --if-present",
     "lint": "biome check"
   },
   "repository": {
