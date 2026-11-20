@@ -24,7 +24,7 @@ function App() {
               setCurrentPage('overview')
             }}
           >
-            ⌂ Overview
+            Overview
           </a>
 
           <a
@@ -35,13 +35,13 @@ function App() {
               setCurrentPage('journal')
             }}
           >
-            ▤ Developer Journal
+            Developer Journal
           </a>
 
-          <a className="nav-item" href="#">◇ Projects</a>
-          <a className="nav-item" href="#">▧ Knowledge Vault</a>
-          <a className="nav-item" href="#">◎ Learning</a>
-          <a className="nav-item" href="#">↗ Progress</a>
+          <a className="nav-item" href="#">Projects</a>
+          <a className="nav-item" href="#">Knowledge Vault</a>
+          <a className="nav-item" href="#">Learning</a>
+          <a className="nav-item" href="#">Progress</a>
         </nav>
 
         <div className="sidebar-bottom">
