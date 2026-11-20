@@ -9,6 +9,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "backend": "*",
+    "hono": "^4.9.0",
     "react": "^19.3.1",
     "react-dom": "^19.3.1"
   },

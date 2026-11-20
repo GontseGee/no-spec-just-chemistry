@@ -14,6 +14,9 @@ A developer journaling and knowledge platform — document what you build, captu
 ```bash
 npm install
 docker compose up -d   # starts Postgres on localhost:5432
+cp source/backend/.env.example source/backend/.env
+npm run db:push -w backend
+npm run dev
 ```
 
 Useful scripts from the repo root:
