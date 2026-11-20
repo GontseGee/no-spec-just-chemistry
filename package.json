@@ -22,5 +22,9 @@
   "homepage": "https://github.com/GontseGee/no-spec-just-chemistry#readme",
   "dependencies": {
     "@biomejs/biome": "^2.6.8"
-  }
+  },
+  "devDependencies": {
+    "turbo": "^2.11.13"
+  },
+  "packageManager": "npm@10.9.8"
 }
